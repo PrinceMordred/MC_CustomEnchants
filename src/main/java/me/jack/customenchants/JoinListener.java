@@ -19,6 +19,7 @@ public class JoinListener implements Listener {
     public void onPlayerJoin(PlayerJoinEvent e){
         //Give the player a chestplate with the enchantment when they join
         Player player = e.getPlayer();
+        player.sendMessage("lol hi");
         ItemStack sword = new ItemStack(Material.DIAMOND_SWORD, 1);
         sword.addUnsafeEnchantment(CustomEnchants.hemorrhageEnchant, 1);
         player.getInventory().setItemInMainHand(sword);
