@@ -1,6 +1,0 @@
-name: Customenchants
-version: ${project.version}
-main: me.jack.customenchants.Customenchants
-api-version: 1.16
-authors: [ Jack ]
-description: Custom Enchants
