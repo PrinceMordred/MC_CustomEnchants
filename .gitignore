@@ -1,0 +1,7 @@
+usage.statistics.xml
+workspace.xml
+shelf/
+*.iml
+.idea/modules.xml
+.idea/libraries/*.xml
+gradle.xml
